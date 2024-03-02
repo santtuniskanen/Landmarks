@@ -17,10 +17,10 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Build and Test
+    - name: Build
       run: |
         xcodebuild \
           -project Landmarks/Landmarks.xcodeproj \
           -scheme Landmarks \
-          -destination 'platform=iOS Simulator,name=iPhone 15' \
+          -destination 'platform=iOS Simulator,name=Any iOS Simulator Device' \
           clean build
