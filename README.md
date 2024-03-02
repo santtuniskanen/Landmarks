@@ -1,3 +1,3 @@
 # Landmarks
 
-Tutorial [application](https://developer.apple.com/tutorials/swiftui) by Apple.
+Tutorial application by [Apple](https://developer.apple.com/tutorials/swiftui).
