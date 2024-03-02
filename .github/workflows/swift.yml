@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: swift build -v --package-path Landmarks/Landmarks
+      run: swift build -v --package-path Landmarks/Landmarks.xcodeproj
     - name: Run tests
-      run: swift test -v --package-path Landmarks/Landmarks
+      run: swift test -v --package-path Landmarks/Landmarks.xcodeproj
